@@ -18,7 +18,7 @@ A place to keep track of my personal dotfile configs and setting up a new machin
 #### Install Homebrew
 
 ```
-> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 #### Add a new SSH key to Github
