@@ -48,7 +48,7 @@ Add the new SSH private key to the ssh-agent and store the passphrase in the
 keychain:
 
 ```zsh
-ssh-add -K ~/.ssh/id_rsa
+ssh-add --apple-use-keychain ~/.ssh/id_rsa
 ```
 
 Copy the ssh key to your clipboard and add to github:
